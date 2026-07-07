@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EXPLORE</title>
+    <link rel="stylesheet" href="style.css">  
+
+   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+   
+</head>
+<body class="bg-black">
+
+<!-- Navbar -->
+<header class="fixed top-0 left-0 w-full z-50">
+    <div class="max-w-7xl mx-auto px-6 lg:px-8">
+        <div class="flex justify-between items-center py-6">
+
+            <!-- Logo -->
+            <a href="#" class="text-white text-3xl font-bold">
+                Explore
+            </a>
+
+            <!-- Menu -->
+            <nav class="hidden md:flex space-x-10">
+                <a href="#Home" class="text-white hover:text-green-400 duration-300">Home</a>
+                <a href="#About" class="text-white hover:text-green-400 duration-300">About</a>
+                <a href="#Services" class="text-white hover:text-green-400 duration-300">Services</a>
+                <a href="#Portfolio" class="text-white hover:text-green-400 duration-300">Portfolio</a>
+                <a href="#Contact" class="text-white hover:text-green-400 duration-300">Contact</a>
+            </nav>
+
+            <!-- Button -->
+            <a href="#"
+                class="hidden md:block bg-white text-black px-6 py-3 rounded-lg font-semibold hover:bg-green-500 hover:text-white transition">
+                Get Started
+            </a>
+
+        </div>
+    </div>
+</header>
+
+<!-- Hero -->
+<section class="hero h-screen relative" id="Home">
+
+    <!-- Overlay -->
+    <div class="absolute inset-0 bg-black/50"></div>
+
+    <div class="relative z-10 max-w-7xl mx-auto h-full flex items-center px-6">
+
+        <div class="text-white max-w-2xl">
+
+            <h1 class="text-6xl md:text-8xl font-extrabold leading-tight">
+                Explore The <br>
+                Beauty of Nature
+            </h1>
+
+            <p class="mt-8 text-xl text-gray-200">
+                Discover breathtaking landscapes, unforgettable adventures,
+                and experience the world's most beautiful destinations.
+            </p>
+
+            <div class="mt-10 flex gap-5">
+
+                <a href="#"
+                    class="bg-white text-black px-8 py-4 rounded-lg font-semibold hover:bg-green-500 hover:text-white transition">
+                    Get Started
+                </a>
+
+                <a href="#"
+                    class="border border-white px-8 py-4 rounded-lg hover:bg-white hover:text-black transition">
+                    Learn More
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Scroll Indicator -->
+    <div class="absolute bottom-10 left-1/2 -translate-x-1/2 text-white text-center animate-bounce">
+        <div class="w-7 h-12 border-2 border-white rounded-full flex justify-center">
+            <div class="w-1 h-3 bg-white rounded-full mt-2"></div>
+        </div>
+        <p class="mt-2 text-sm">Scroll Down</p>
+    </div>
+
+</section>
+
+<!-- About Section -->
+<section class="relative bg-white py-24 overflow-hidden" id="About">
+
+    <div class="max-w-7xl mx-auto grid lg:grid-cols-2 gap-16 items-center px-6">
+
+        <!-- Left Content -->
+        <div class="space-y-6">
+
+            <span class="text-green-600 uppercase tracking-[4px] font-semibold">
+                About Us
+            </span>
+
+            <h2 class="text-5xl font-extrabold leading-tight">
+                We Are Nature Lovers &
+                <span class="text-green-600">Adventure Seekers.</span>
+            </h2>
+
+            <p class="text-gray-600 leading-8 text-lg">
+                Discover breathtaking destinations, unforgettable hiking trails,
+                camping experiences, and outdoor adventures across the world.
+                Every journey is crafted to connect you with nature.
+            </p>
+
+            <div class="grid grid-cols-2 gap-5 pt-6">
+
+                <div class="p-6 rounded-2xl shadow-lg">
+                 <h3 class="text-4xl font-bold text-green-600">
+                     <span class="counter" data-target="10">0</span>+
+                      </h3>
+                    <p class="text-gray-500 mt-2">Years Experience</p>
+                </div>
+
+                <div class="p-6 rounded-2xl shadow-lg">
+                 <h3 class="text-4xl font-bold text-green-600">
+                     <span class="counter" data-target="150">0</span>+
+                     </h3>
+                    <p class="text-gray-500 mt-2">Adventure Tours</p>
+                </div>
+
+                <div class="p-6 rounded-2xl shadow-lg">
+                   <h3 class="text-4xl font-bold text-green-600">
+                     <span class="counter" data-target="50000">0</span>+
+              </h3>
+                    <p class="text-gray-500 mt-2">Happy Travelers</p>
+                </div>
+
+                <div class="p-6 rounded-2xl shadow-lg">
+                <h3 class="text-4xl font-bold text-green-600">
+                  <span class="counter" data-target="98">0</span>%
+                     </h3>             
+               <p class="text-gray-500 mt-2">Positive Reviews</p>
+                </div>
+
+            </div>
+
+            <button class="mt-8 bg-green-600 text-white px-8 py-4 rounded-xl hover:bg-green-700 transition">
+                Learn More
+            </button>
+
+        </div>
+
+        <!-- Right Parallax Image -->
+        <div class="relative h-[700px] rounded-3xl overflow-hidden shadow-2xl">
+
+            <div
+                class="absolute inset-0 bg-fixed bg-center bg-cover"
+                style="background-image:url('https://images.unsplash.com/photo-1441974231531-c6227db76b6e');">
+            </div>
+
+            <div class="absolute inset-0 bg-black/25"></div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- What We Do Section -->
+<section
+    class="relative py-28 bg-fixed bg-center bg-cover"
+    style="background-image: url('https://images.unsplash.com/photo-1441974231531-c6227db76b6e');"
+    id="Services">
+
+    <!-- Dark Overlay -->
+    <div class="absolute inset-0 bg-black/70"></div>
+
+    <!-- Content -->
+    <div class="relative z-10 max-w-7xl mx-auto px-6">
+
+        <!-- Heading -->
+        <div class="text-center mb-16">
+
+            <span class="uppercase tracking-[5px] text-green-400 font-semibold">
+                What We Do
+            </span>
+
+            <h2 class="text-5xl md:text-6xl font-bold text-white mt-4">
+                Our Awesome Services
+            </h2>
+
+            <p class="text-gray-300 mt-6 max-w-2xl mx-auto">
+                We create unforgettable outdoor adventures with professional
+                guides, premium equipment, and breathtaking destinations.
+            </p>
+
+        </div>
+
+        <!-- Cards -->
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+            <!-- Card 1 -->
+            <div
+                class="bg-white/10 backdrop-blur-md border border-white/20 rounded-2xl p-10 text-center hover:-translate-y-3 hover:bg-green-600/80 transition-all duration-500">
+
+                <div class="text-6xl mb-6">🏔️</div>
+
+                <h3 class="text-2xl font-bold text-white mb-4">
+                    Trekking
+                </h3>
+
+                <p class="text-gray-300 leading-7">
+                    Explore scenic mountain trails with experienced guides and
+                    unforgettable landscapes.
+                </p>
+
+                <button
+                    class="mt-8 text-green-400 hover:text-white font-semibold">
+                    Read More →
+                </button>
+
+            </div>
+
+            <!-- Card 2 -->
+            <div
+                class="bg-white/10 backdrop-blur-md border border-white/20 rounded-2xl p-10 text-center hover:-translate-y-3 hover:bg-green-600/80 transition-all duration-500">
+
+                <div class="text-6xl mb-6">🏕️</div>
+
+                <h3 class="text-2xl font-bold text-white mb-4">
+                    Camping
+                </h3>
+
+                <p class="text-gray-300 leading-7">
+                    Enjoy premium camping experiences surrounded by forests,
+                    lakes, and beautiful night skies.
+                </p>
+
+                <button
+                    class="mt-8 text-green-400 hover:text-white font-semibold">
+                    Read More →
+                </button>
+
+            </div>
+
+            <!-- Card 3 -->
+            <div
+                class="bg-white/10 backdrop-blur-md border border-white/20 rounded-2xl p-10 text-center hover:-translate-y-3 hover:bg-green-600/80 transition-all duration-500">
+
+                <div class="text-6xl mb-6">📸</div>
+
+                <h3 class="text-2xl font-bold text-white mb-4">
+                    Sight Seeing
+                </h3>
+
+                <p class="text-gray-300 leading-7">
+                    Visit breathtaking locations and capture unforgettable
+                    moments with professional photography tours.
+                </p>
+
+                <button
+                    class="mt-8 text-green-400 hover:text-white font-semibold">
+                    Read More →
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- Our Work Section -->
+<section class="py-28 bg-white" id="Portfolio">
+
+    <div class="max-w-7xl mx-auto px-6">
+
+        <!-- Section Heading -->
+        <div class="text-center mb-16">
+
+            <span class="uppercase tracking-[5px] text-green-600 font-semibold">
+                Our Work
+            </span>
+
+            <h2 class="text-5xl md:text-6xl font-bold text-gray-900 mt-4">
+                Recent Projects
+            </h2>
+
+            <p class="text-gray-500 max-w-2xl mx-auto mt-6">
+                Explore our latest adventures, breathtaking destinations, and unforgettable outdoor experiences.
+            </p>
+
+        </div>
+
+        <!-- Project Grid -->
+        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+
+            <!-- Project 1 -->
+            <div class="group relative overflow-hidden rounded-3xl shadow-xl cursor-pointer">
+
+                <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee"
+                    class="w-full h-80 object-cover duration-700 group-hover:scale-110">
+
+                <div
+                    class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 duration-500 flex items-end p-6">
+
+                    <div>
+                        <h3 class="text-2xl font-bold text-white">
+                            Mountain Trek
+                        </h3>
+
+                        <p class="text-gray-300 mt-2">
+                            Adventure Tour
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Project 2 -->
+            <div class="group relative overflow-hidden rounded-3xl shadow-xl cursor-pointer">
+
+                <img src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e"
+                    class="w-full h-80 object-cover duration-700 group-hover:scale-110">
+
+                <div
+                    class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 duration-500 flex items-end p-6">
+
+                    <div>
+                        <h3 class="text-2xl font-bold text-white">
+                            Sunrise Peak
+                        </h3>
+
+                        <p class="text-gray-300 mt-2">
+                            Hiking
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Project 3 -->
+            <div class="group relative overflow-hidden rounded-3xl shadow-xl cursor-pointer">
+
+                <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e"
+                    class="w-full h-80 object-cover duration-700 group-hover:scale-110">
+
+                <div
+                    class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 duration-500 flex items-end p-6">
+
+                    <div>
+                        <h3 class="text-2xl font-bold text-white">
+                            Forest Camping
+                        </h3>
+
+                        <p class="text-gray-300 mt-2">
+                            Nature Camp
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Project 4 -->
+            <div class="group relative overflow-hidden rounded-3xl shadow-xl cursor-pointer">
+
+                <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b"
+                    class="w-full h-80 object-cover duration-700 group-hover:scale-110">
+
+                <div
+                    class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 duration-500 flex items-end p-6">
+
+                    <div>
+                        <h3 class="text-2xl font-bold text-white">
+                            Valley Escape
+                        </h3>
+
+                        <p class="text-gray-300 mt-2">
+                            Travel Tour
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Button -->
+        <div class="text-center mt-16">
+
+            <a href="#"
+                class="inline-block bg-green-600 text-white px-10 py-4 rounded-xl font-semibold hover:bg-green-700 transition duration-300">
+                View All Projects
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- Ready For Adventure Section -->
+<section
+    class="relative py-40 bg-fixed bg-center bg-cover"
+    style="background-image: url('https://images.unsplash.com/photo-1501785888041-af3ef285b470');"
+    id="Contact">
+
+    <!-- Overlay -->
+    <div class="absolute inset-0 bg-black/65"></div>
+
+    <!-- Content -->
+    <div class="relative z-10 max-w-5xl mx-auto text-center px-6">
+
+        <span class="uppercase tracking-[6px] text-green-400 font-semibold">
+            Let's Explore
+        </span>
+
+        <h2 class="text-5xl md:text-7xl font-extrabold text-white mt-6 leading-tight">
+            Ready For Your <br>
+            Next Adventure?
+        </h2>
+
+        <p class="text-gray-300 text-lg md:text-xl mt-8 max-w-3xl mx-auto leading-8">
+            Whether you're looking for mountain trekking, forest camping,
+            breathtaking photography tours, or unforgettable outdoor experiences,
+            we're here to make every journey extraordinary.
+        </p>
+
+        <!-- Buttons -->
+        <div class="flex flex-col sm:flex-row justify-center gap-6 mt-12">
+
+            <a href="#contact"
+                class="bg-green-600 hover:bg-green-700 text-white font-semibold px-10 py-4 rounded-xl transition duration-300">
+                Book Your Trip
+            </a>
+
+            <a href="#our-work"
+                class="border-2 border-white text-white hover:bg-white hover:text-black font-semibold px-10 py-4 rounded-xl transition duration-300">
+                View Our Adventures
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- Footer -->
+<footer class="bg-gray-950 text-gray-300">
+
+    <!-- Top Footer -->
+    <div class="max-w-7xl mx-auto px-6 py-20">
+
+        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-12">
+
+            <!-- About -->
+            <div>
+
+                <h2 class="text-3xl font-bold text-white mb-6">
+                    Explore
+                </h2>
+
+                <p class="leading-8 text-gray-400">
+                    We help travelers discover breathtaking destinations,
+                    exciting adventures, and unforgettable outdoor experiences
+                    across the world.
+                </p>
+
+                <!-- Social Icons -->
+                <div class="flex gap-4 mt-8">
+
+                    <a href="#"
+                        class="w-11 h-11 rounded-full bg-gray-800 hover:bg-green-600 flex items-center justify-center transition text-xl">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free v7.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc.--><path d="M224.3 141a115 115 0 1 0 -.6 230 115 115 0 1 0 .6-230zm-.6 40.4a74.6 74.6 0 1 1 .6 149.2 74.6 74.6 0 1 1 -.6-149.2zm93.4-45.1a26.8 26.8 0 1 1 53.6 0 26.8 26.8 0 1 1 -53.6 0zm129.7 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM399 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg>
+                    </a>
+
+                    <a href="#"
+                        class="w-11 h-11 rounded-full bg-gray-800 hover:bg-green-600 flex items-center justify-center transition text-xl">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free v7.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc.--><path d="M500 261.8C500 403.3 403.1 504 260 504 122.8 504 12 393.2 12 256S122.8 8 260 8c66.8 0 123 24.5 166.3 64.9l-67.5 64.9c-88.3-85.2-252.5-21.2-252.5 118.2 0 86.5 69.1 156.6 153.7 156.6 98.2 0 135-70.4 140.8-106.9l-140.8 0 0-85.3 236.1 0c2.3 12.7 3.9 24.9 3.9 41.4z"/></svg>
+                    </a>
+
+                    <a href="#"
+                        class="w-11 h-11 rounded-full bg-gray-800 hover:bg-green-600 flex items-center justify-center transition text-xl">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free v7.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc.--><path d="M512 256C512 114.6 397.4 0 256 0S0 114.6 0 256C0 376 82.7 476.8 194.2 504.5l0-170.3-52.8 0 0-78.2 52.8 0 0-33.7c0-87.1 39.4-127.5 125-127.5 16.2 0 44.2 3.2 55.7 6.4l0 70.8c-6-.6-16.5-1-29.6-1-42 0-58.2 15.9-58.2 57.2l0 27.8 83.6 0-14.4 78.2-69.3 0 0 175.9C413.8 494.8 512 386.9 512 256z"/></svg>
+                    </a>
+
+                    <a href="#"
+                        class="w-11 h-11 rounded-full bg-gray-800 hover:bg-green-600 flex items-center justify-center transition text-xl">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free v7.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc.--><path d="M282 256.2l-95.2-54.1 0 108.2 95.2-54.1zM384 32L64 32C28.7 32 0 60.7 0 96L0 416c0 35.3 28.7 64 64 64l320 0c35.3 0 64-28.7 64-64l0-320c0-35.3-28.7-64-64-64zm14.4 136.1c7.6 28.6 7.6 88.2 7.6 88.2s0 59.6-7.6 88.1c-4.2 15.8-16.5 27.7-32.2 31.9-28.3 7.7-142.2 7.7-142.2 7.7s-113.9 0-142.2-7.6c-15.7-4.2-28-16.1-32.2-31.9-7.6-28.6-7.6-88.2-7.6-88.2s0-59.7 7.6-88.2c4.2-15.8 16.5-28.2 32.2-32.4 28.3-7.7 142.2-7.7 142.2-7.7s113.9 0 142.2 7.7c15.7 4.2 28 16.6 32.2 32.4z"/></svg>
+                    </a>
+
+                </div>
+
+            </div>
+
+            <!-- Quick Links -->
+            <div>
+
+                <h3 class="text-2xl font-semibold text-white mb-6">
+                    Quick Links
+                </h3>
+
+                <ul class="space-y-4">
+
+                    <li><a href="#Home" class="hover:text-green-400 transition">Home</a></li>
+                    <li><a href="#About" class="hover:text-green-400 transition">About</a></li>
+                    <li><a href="#Services" class="hover:text-green-400 transition">Services</a></li>
+                    <li><a href="#Portfolio" class="hover:text-green-400 transition">Our Work</a></li>
+                    <li><a href="#Contact" class="hover:text-green-400 transition">Contact</a></li>
+
+                </ul>
+
+            </div>
+
+            <!-- Services -->
+            <div>
+
+                <h3 class="text-2xl font-semibold text-white mb-6">
+                    Services
+                </h3>
+
+                <ul class="space-y-4">
+
+                    <li>Mountain Trekking</li>
+                    <li>Camping Tours</li>
+                    <li>Adventure Travel</li>
+                    <li>Photography Trips</li>
+                    <li>Nature Exploration</li>
+
+                </ul>
+
+            </div>
+
+            <!-- Contact -->
+            <div>
+
+                <h3 class="text-2xl font-semibold text-white mb-6">
+                    Contact Us
+                </h3>
+
+                <div class="space-y-5">
+
+                    <p>
+                        📍 Kinfra Adventure Road<br>
+                        Kerala, India
+                    </p>
+
+                    <p>
+                        📞 +91 7012938103
+                    </p>
+
+                    <p>
+                        ✉ arshidabdulla58@gmail.com
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Bottom Footer -->
+    <div class="border-t border-gray-800">
+
+        <div class="max-w-7xl mx-auto px-6 py-6 flex flex-col md:flex-row justify-between items-center gap-4">
+
+            <p class="text-sm text-gray-500">
+                © 2026 Explore. All Rights Reserved.
+            </p>
+
+            <div class="flex gap-6 text-sm">
+
+                <a href="#" class="hover:text-green-400 transition">
+                    Privacy Policy
+                </a>
+
+                <a href="#" class="hover:text-green-400 transition">
+                    Terms & Conditions
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</footer>
+<script>
+const counters = document.querySelectorAll('.counter');
+
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+
+        if (entry.isIntersecting) {
+
+            const counter = entry.target;
+            const target = +counter.dataset.target;
+
+            let count = 0;
+            const increment = target / 200;
+
+            const updateCounter = () => {
+
+                count += increment;
+
+                if (count < target) {
+
+                    if (target >= 1000) {
+                        counter.innerText = Math.floor(count).toLocaleString();
+                    } else {
+                        counter.innerText = Math.floor(count);
+                    }
+
+                    requestAnimationFrame(updateCounter);
+
+                } else {
+
+                    if (target >= 1000) {
+                        counter.innerText = target.toLocaleString();
+                    } else {
+                        counter.innerText = target;
+                    }
+
+                }
+
+            };
+
+            updateCounter();
+
+            observer.unobserve(counter);
+
+        }
+
+    });
+}, {
+    threshold: 0.5
+});
+
+counters.forEach(counter => observer.observe(counter));
+</script>
+</body>
+</html>
